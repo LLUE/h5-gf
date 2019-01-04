@@ -1,0 +1,2 @@
+cd %JAVA_HOME%\bin
+jarsigner -keystore .\pix.keystore -digestalg SHA1 -sigalg MD5withRSA K:\workspace\monaca\helloworld\src-cordova\platforms\android\app\build\outputs\apk\release\app-release-unsigned.apk pix.keystore
